@@ -1196,6 +1196,14 @@ int QOrganizerManagerEngine::compareItem(const QOrganizerItem& a, const QOrganiz
             bIsNull = true;
         }
 
+        // treat invalid date times as null's
+        if ((aVal.type() == QVariant::DateTime && !aVal.toDateTime().isValid())) {
+            aIsNull = true;
+        }
+        if ((bVal.type() == QVariant::DateTime && !bVal.toDateTime().isValid())) {
+            bIsNull = true;
+        }
+
         // early exit error checking
         if (aIsNull && bIsNull)
             continue; // use next sort criteria.
