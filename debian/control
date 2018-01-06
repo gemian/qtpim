@@ -1,7 +1,7 @@
 Source: qtpim-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Adam Boardman <adamboardman@gmail.com>
 Build-Depends: dbus,
                debhelper (>= 9),
                pkg-kde-tools,
@@ -15,9 +15,9 @@ Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.0~),
                      qtdeclarative5-doc-html (>= 5.5.0~),
                      qttools5-dev-tools (>= 5.5.0~)
 Standards-Version: 3.9.6
-Homepage: http://qt-project.org/
-Vcs-Bzr: lp:~kubuntu-packagers/kubuntu-packaging/qtpim-opensource-src
-Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/qtpim-opensource-src
+Homepage: https://github.com/qt/qtpim
+Vcs-Git: https://github.com/adamboardman/qtpim.git
+Vcs-Browser: https://github.com/adamboardman/qtpim
 
 Package: libqt5contacts5
 Architecture: any
