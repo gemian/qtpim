@@ -5,6 +5,7 @@ Maintainer: Adam Boardman <adamboardman@gmail.com>
 Build-Depends: dbus,
                debhelper (>= 9),
                cmake,
+               xauth,
                pkg-kde-tools,
                qml-module-qtquick2 (>= 5.5.0~),
                qml-module-qttest (>= 5.5.0~),
