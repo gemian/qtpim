@@ -20,7 +20,6 @@ usr/include/*/qt5/QtContacts/QContactDetailFilter
 usr/include/*/qt5/QtContacts/QContactDetailRangeFilter
 usr/include/*/qt5/QtContacts/QContactDisplayLabel
 usr/include/*/qt5/QtContacts/QContactEmailAddress
-usr/include/*/qt5/QtContacts/QContactEngineId
 usr/include/*/qt5/QtContacts/QContactExtendedDetail
 usr/include/*/qt5/QtContacts/QContactFamily
 usr/include/*/qt5/QtContacts/QContactFavorite
@@ -213,7 +212,6 @@ usr/include/*/qt5/QtOrganizer/qorganizer.h
 usr/include/*/qt5/QtOrganizer/qorganizerabstractrequest.h
 usr/include/*/qt5/QtOrganizer/qorganizercollection.h
 usr/include/*/qt5/QtOrganizer/qorganizercollectionchangeset.h
-usr/include/*/qt5/QtOrganizer/qorganizercollectionengineid.h
 usr/include/*/qt5/QtOrganizer/qorganizercollectionfetchrequest.h
 usr/include/*/qt5/QtOrganizer/qorganizercollectionid.h
 usr/include/*/qt5/QtOrganizer/qorganizercollectionremoverequest.h
