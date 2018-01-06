@@ -12,6 +12,9 @@ usr/include/*/qt5/QtContacts/QContactAvatar
 usr/include/*/qt5/QtContacts/QContactBirthday
 usr/include/*/qt5/QtContacts/QContactChangeLogFilter
 usr/include/*/qt5/QtContacts/QContactChangeSet
+usr/include/*/qt5/QtContacts/QContactCollection
+usr/include/*/qt5/QtContacts/QContactCollectionChangeset
+usr/include/*/qt5/QtContacts/QContactCollectionFilter
 usr/include/*/qt5/QtContacts/QContactDetail
 usr/include/*/qt5/QtContacts/QContactDetailFilter
 usr/include/*/qt5/QtContacts/QContactDetailRangeFilter
@@ -85,10 +88,12 @@ usr/include/*/qt5/QtContacts/qcontactdetailrangefilter.h
 usr/include/*/qt5/QtContacts/qcontactdetails.h
 usr/include/*/qt5/QtContacts/qcontactdisplaylabel.h
 usr/include/*/qt5/QtContacts/qcontactemailaddress.h
-usr/include/*/qt5/QtContacts/qcontactengineid.h
 usr/include/*/qt5/QtContacts/qcontactextendeddetail.h
 usr/include/*/qt5/QtContacts/qcontactfamily.h
 usr/include/*/qt5/QtContacts/qcontactfavorite.h
+usr/include/*/qt5/QtContacts/qcontactcollectionfetchrequest.h
+usr/include/*/qt5/QtContacts/qcontactcollectionremoverequest.h
+usr/include/*/qt5/QtContacts/qcontactcollectionsaverequest.h
 usr/include/*/qt5/QtContacts/qcontactfetchbyidrequest.h
 usr/include/*/qt5/QtContacts/qcontactfetchhint.h
 usr/include/*/qt5/QtContacts/qcontactfetchrequest.h
@@ -138,7 +143,6 @@ usr/include/*/qt5/QtContacts/qtcontactsversion.h
 usr/include/*/qt5/QtOrganizer/QOrganizerAbstractRequest
 usr/include/*/qt5/QtOrganizer/QOrganizerCollection
 usr/include/*/qt5/QtOrganizer/QOrganizerCollectionChangeSet
-usr/include/*/qt5/QtOrganizer/QOrganizerCollectionEngineId
 usr/include/*/qt5/QtOrganizer/QOrganizerCollectionFetchRequest
 usr/include/*/qt5/QtOrganizer/QOrganizerCollectionId
 usr/include/*/qt5/QtOrganizer/QOrganizerCollectionRemoveRequest
@@ -161,7 +165,6 @@ usr/include/*/qt5/QtOrganizer/QOrganizerItemDetailFilter
 usr/include/*/qt5/QtOrganizer/QOrganizerItemDetailRangeFilter
 usr/include/*/qt5/QtOrganizer/QOrganizerItemDisplayLabel
 usr/include/*/qt5/QtOrganizer/QOrganizerItemEmailReminder
-usr/include/*/qt5/QtOrganizer/QOrganizerItemEngineId
 usr/include/*/qt5/QtOrganizer/QOrganizerItemExtendedDetail
 usr/include/*/qt5/QtOrganizer/QOrganizerItemFetchByIdRequest
 usr/include/*/qt5/QtOrganizer/QOrganizerItemFetchForExportRequest
