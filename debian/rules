@@ -40,6 +40,8 @@ override_dh_auto_install:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 	# Don't install the skeleton plugin
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins/organizer/libqtorganizer_skeleton.so
+	# Don't install the examples
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/*
 
 override_dh_auto_test:
 	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
