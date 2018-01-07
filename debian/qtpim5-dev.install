@@ -13,7 +13,7 @@ usr/include/*/qt5/QtContacts/QContactBirthday
 usr/include/*/qt5/QtContacts/QContactChangeLogFilter
 usr/include/*/qt5/QtContacts/QContactChangeSet
 usr/include/*/qt5/QtContacts/QContactCollection
-usr/include/*/qt5/QtContacts/QContactCollectionChangeset
+usr/include/*/qt5/QtContacts/QContactCollectionChangeSet
 usr/include/*/qt5/QtContacts/QContactCollectionFilter
 usr/include/*/qt5/QtContacts/QContactDetail
 usr/include/*/qt5/QtContacts/QContactDetailFilter
@@ -236,7 +236,6 @@ usr/include/*/qt5/QtOrganizer/qorganizeritemdetailrangefilter.h
 usr/include/*/qt5/QtOrganizer/qorganizeritemdetails.h
 usr/include/*/qt5/QtOrganizer/qorganizeritemdisplaylabel.h
 usr/include/*/qt5/QtOrganizer/qorganizeritememailreminder.h
-usr/include/*/qt5/QtOrganizer/qorganizeritemengineid.h
 usr/include/*/qt5/QtOrganizer/qorganizeritemextendeddetail.h
 usr/include/*/qt5/QtOrganizer/qorganizeritemfetchbyidrequest.h
 usr/include/*/qt5/QtOrganizer/qorganizeritemfetchforexportrequest.h
