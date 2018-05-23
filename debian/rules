@@ -20,7 +20,7 @@ override_dh_auto_clean:
 
 override_dh_auto_configure:
 	mkdir .git
-	qmake QT_BUILD_PARTS+=tests
+	qmake
 
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
@@ -43,5 +43,4 @@ override_dh_auto_install:
 	# Don't install the examples
 	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/*
 
-override_dh_auto_test:
-	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+override_dh_test:
